@@ -1,0 +1,43 @@
+
+   29  echo "# GitTest" >> README.md
+   30  git init
+   31  git add README.md
+   32  git commit -m "first commit"
+   33  git remote add origin https://github.com/PawelSobczak/GitTest.git
+   34  git push -u origin master
+   35  git config --global user.name "Pawel Sobczak"
+   36  git config --global user.email "p.sobczak@gmail.com"
+   37  git config --list
+   38  git branch develop
+   39  git push -u origin develop
+   40  git status
+   41  git branch
+   42  git branch -a
+   43  git checkout develop
+   44  git branch
+   45  git init
+   47  git add developBranch.txt
+   48  git status
+   49  git checkout master
+   50  git status
+   51  git checkout develop
+   52  git commit -m "first develop branch commit"
+   53  git push
+   54  git status
+   55  git branch -a
+
+   77  git checkout develop
+   78  git list
+   79  git branch feature
+   80  git push -u origin feature
+   81  git status
+   82  git branch
+   83  git branch -a
+   84  git checkout feature
+   85  git init
+   91  git add developBranch.txt
+   92  git status
+   93  git commit -m "first feature branch commit"
+   94  git push
+   95  git status
+   98  history
